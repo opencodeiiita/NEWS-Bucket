@@ -3,13 +3,13 @@
 
 ## Why NEWS-Bucket
 
-In the present scenerio there are multiple NEWS sources, but thier authenticy can be seldom verified. NEWS-Bucket is an everyday NEWS app that aims to get authentic NEWS from multiple sources in a single app.
+In the present scenerio there are multiple NEWS sources, but their authenticity can be seldom verified. NEWS-Bucket is an everyday NEWS app that aims to get authentic NEWS from multiple sources in a single app.
 
 ## Communicate
 Chat with us on [Slack](https://opencodeiiita.slack.com/) and Like us on [Facebook](https://www.facebook.com/opencodeiiita/)
 
 ## Requirements
-Basic Git and Github. (Feel free to contact any mentor if you have any issue regarding Git or Github.)
+Basic Git and Github. ( Feel free to contact any mentor if you have any issue regarding Git or Github. )
 
 ## Getting Started
 
@@ -22,7 +22,7 @@ To get this project up and running on your local machine, all you need to do is 
 
    2.1 git clone {url of the forked repo (the one in your account)}
    
-   2.2 git remote add original {url of original repo.}
+   2.2 git remote add original { url of original repo.}
        (You can use this remote to sync your repo with the original project) [Syncing a fork](https://help.github.com/articles/syncing-a-fork/)
 3. After you have solved the issue in your local system, you need to commit the changes, push them to your repository,
    and send a pull request. Refer: 1. [Making changes and commits](https://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html#commit-your-changes)

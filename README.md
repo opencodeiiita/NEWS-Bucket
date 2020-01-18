@@ -1,5 +1,5 @@
 # NEWS-Bucket
-This is a NEWS app that fetches you the latest news on the go.
+ This is a NEWS app that fetches you the latest news on the go.
 
 ## Why NEWS-Bucket
 

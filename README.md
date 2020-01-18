@@ -22,7 +22,7 @@ To get this project up and running on your local machine, all you need to do is 
 
    2.1 git clone {url of the forked repo (the one in your account)}
    
-   2.2 git remote add original {url of original repo.}
+   2.2 git remote add original { url of original repo.}
        (You can use this remote to sync your repo with the original project) [Syncing a fork](https://help.github.com/articles/syncing-a-fork/)
 3. After you have solved the issue in your local system, you need to commit the changes, push them to your repository,
    and send a pull request. Refer: 1. [Making changes and commits](https://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html#commit-your-changes)

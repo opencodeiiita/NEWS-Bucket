@@ -3,13 +3,13 @@ This is a NEWS app that fetches you the latest news on the go.
 
 ## Why NEWS-Bucket
 
-In the present scenerio there are multiple NEWS sources, but thier authenticy can be seldom verified. NEWS-Bucket is an everyday NEWS app that aims to get authentic NEWS from multiple sources in a single app.
+In the present scenerio there are multiple NEWS sources, but their authenticity can be seldom verified. NEWS-Bucket is an everyday NEWS app that aims to get authentic NEWS from multiple sources in a single app.
 
 ## Communicate
 Chat with us on [Slack](https://opencodeiiita.slack.com/) and Like us on [Facebook](https://www.facebook.com/opencodeiiita/)
 
 ## Requirements
-Basic Git and Github. (Feel free to contact any mentor if you have any issue regarding Git or Github.)
+Basic Git and Github. (Feel free to contact any mentor if you have any issue regarding Git or Github. )
 
 ## Getting Started
 

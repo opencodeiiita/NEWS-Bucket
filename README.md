@@ -60,4 +60,4 @@ Please help us follow the best practice to make it easy for the reviewer as well
 Communicate: Whether you are working on a new feature or facing a doubt please feel free to ask us on our slack channel. We will be happy to help you out.
 
 
-See also the list of [contributors](https://github.com/opencodeiiita/NEWS-Bucket/graphs/contributors) who participated in the project.
+See also the list of [contributors](https://github.com/opencodeiiita/NEWS-Bucket/graphs/contributors) who participated in the project .

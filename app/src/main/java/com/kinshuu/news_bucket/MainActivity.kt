@@ -45,11 +45,10 @@ class MainActivity : AppCompatActivity() {
         }
 
         listView.setOnItemClickListener { parent, view, position, id ->
-
             val intent = Intent(this, detailnews::class.java)
             intent.putExtra("Heading",news_heading[position])
             intent.putExtra("Description",news_description[position])
-            startActivity(intent);
+            startActivity(intent)
         }
     }
 }

@@ -1,0 +1,1 @@
+Do not push your Screen shots to the repo. Attch them in PR.

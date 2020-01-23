@@ -50,5 +50,7 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("Description",news_description[position])
             startActivity(intent)
         }
+
+
     }
 }

@@ -4,34 +4,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".detailnews">
+    android:background="#27FFBB33"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    tools:context=".detailnews"
+    tools:layout_editor_absoluteY="81dp">
 
     <TextView
         android:id="@+id/txtNewsHeading"
-        android:layout_width="wrap_content"
+        android:layout_width="191dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="serif"
         android:text="TextView"
-        android:textAlignment="center"
+        android:textAlignment="viewStart"
         android:textColor="@android:color/black"
-        android:textSize="24sp"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/txtNewsDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginRight="8dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="152dp"
+        android:fontFamily="@font/comfortaa"
         android:paddingLeft="4dp"
         android:paddingRight="4dp"
         android:text="TextView"
-        android:textAlignment="center"
+        android:textAlignment="viewStart"
+        android:textFontWeight="500"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -39,14 +44,25 @@
 
     <View
         android:id="@+id/divider"
-        android:layout_width="0dp"
+        android:layout_width="297dp"
         android:layout_height="4dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="10dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="61dp"
+        android:alpha="0.2"
         android:background="#7A7A7A"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtNewsHeading" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="141dp"
+        android:layout_height="195dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="9dp"
+        app:layout_constraintEnd_toStartOf="@+id/txtNewsHeading"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tempbg" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

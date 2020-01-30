@@ -12,7 +12,6 @@ import kotlinx.android.synthetic.main.activity_detailnews.*
 class detailnews : AppCompatActivity() {
 
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detailnews)
@@ -28,6 +27,16 @@ class detailnews : AppCompatActivity() {
         actionbar.setDisplayHomeAsUpEnabled(true)
         actionbar.setDisplayHomeAsUpEnabled(true)
 
-    }
+        shareTxt.setOnClickListener {
+            val s = txtNewsHeading.text.toString()
+            val shareIntent = Intent()
+            shareIntent.action = Intent.ACTION_SEND
+            shareIntent.type = "text/plain"
+            shareIntent.putExtra(Intent.EXTRA_TEXT, s)
+            shareIntent.putExtra(Intent.EXTRA_SUBJECT, "subject here")
+            startActivity(Intent.createChooser(shareIntent, "Share Via"))
 
+        }
+
+    }
 }

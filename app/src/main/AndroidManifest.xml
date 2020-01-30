@@ -9,7 +9,9 @@
         android:roundIcon="@drawable/logo_news_bucket"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".detailnews"></activity>
+        <activity android:name=".detailnews" android:parentActivityName=".MainActivity">
+
+        </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

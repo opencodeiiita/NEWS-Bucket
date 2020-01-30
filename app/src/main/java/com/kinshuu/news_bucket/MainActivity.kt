@@ -1,20 +1,31 @@
 package com.kinshuu.news_bucket
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Button
+import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.snackbar.Snackbar
+import kotlinx.android.synthetic.main.activity_detailnews.*
 import kotlinx.android.synthetic.main.activity_main.*
 
-class MainActivity : AppCompatActivity() ,OnNewsItemClickListner{
+
+
+class MainActivity : AppCompatActivity() ,OnNewsItemClickListner {
     lateinit var newslist: ArrayList<News>
+    lateinit var txtNewsHeading: TextView
+    lateinit var shareFab : Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+//        txtNewsHeading= findViewById(R.id.txtNewsHeading)
+//        shareFab= findViewById(R.id.shareFab)
+//        shareFab.setOnClickListener(this)
 
         newslist = ArrayList()
         addNews()
@@ -48,6 +59,18 @@ class MainActivity : AppCompatActivity() ,OnNewsItemClickListner{
         intent.putExtra("NewsDesc", item.Description)
         startActivity(intent)
     }
+
+
+
+//    override fun onClick(view: View?) {
+//        val name = txtNewsHeading.text
+//        val sharingIntent = Intent(Intent.ACTION_SEND)
+//        sharingIntent.type = "text/plain"
+//        val shareBody = "$name"
+//        sharingIntent.putExtra(Intent.EXTRA_SUBJECT, "Subject Here")
+//        sharingIntent.putExtra(Intent.EXTRA_TEXT, shareBody)
+//        startActivity(Intent.createChooser(sharingIntent, "Share via"))
+//    }
 
 
 }

@@ -23,10 +23,6 @@ class MainActivity : AppCompatActivity() ,OnNewsItemClickListner {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-//        txtNewsHeading= findViewById(R.id.txtNewsHeading)
-//        shareFab= findViewById(R.id.shareFab)
-//        shareFab.setOnClickListener(this)
-
         newslist = ArrayList()
         addNews()
 
@@ -62,15 +58,6 @@ class MainActivity : AppCompatActivity() ,OnNewsItemClickListner {
 
 
 
-//    override fun onClick(view: View?) {
-//        val name = txtNewsHeading.text
-//        val sharingIntent = Intent(Intent.ACTION_SEND)
-//        sharingIntent.type = "text/plain"
-//        val shareBody = "$name"
-//        sharingIntent.putExtra(Intent.EXTRA_SUBJECT, "Subject Here")
-//        sharingIntent.putExtra(Intent.EXTRA_TEXT, shareBody)
-//        startActivity(Intent.createChooser(sharingIntent, "Share via"))
-//    }
 
 
 }
